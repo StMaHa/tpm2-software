@@ -19,9 +19,21 @@ $ sudo apt update
 $ sudo apt -y full-upgrade
 ```
 
-:fire: **Enable SPI on Raspberry Pi**
+:fire: **Enable SPI interface on Raspberry Pi**  
+add 'dtparam=spi=on' to '/boot/config.txt'  
+  
+or
+```
+$ sudo raspi-config
+```
 
-:fire: **Enable TPM support on Raspberry Pi**
+:fire: **Enable TPM support on Raspberry Pi**  
+Add 'dtoverlay=tpm-slb9670' to '/boot/config.txt'
+
+:fire: **After the above preparation steps reboot your Raspberry Pi and check**
+```
+$ ls /dev/tpm*
+```
 
 **Download / clone the repository to your computer:**
 ```
