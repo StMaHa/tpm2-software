@@ -1,12 +1,12 @@
 # tpm2-software
 Linux TPM2 &amp; TSS2 Software
 
-> Scripts and example from this repository...  
+> Scripts and examples from this repository...  
 > ...related to repository https://github.com/tpm2-software  
-> ...intended to be used on Raspberry Pi.  
+> ...intended to be used on **Raspberry Pi**.  
 > ...tested on Raspberry Pi 4B with Raspberry Pi OS based on Buster.  
 >
-> ...tested with add-on boards for Raspberry Pi:  
+> ...tested with add-on boards for Raspberry Pi:
 > - IRIDIUM SLM9670 TPM2.0 (purchasable at mouser.com)  
 > - LetsTrust TPM SLB9670 (purchasable at buyzero.de)  
 
