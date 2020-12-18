@@ -18,6 +18,10 @@ $ sudo apt update
 $ sudo apt -y full-upgrade
 ```
 
+:warning:**Enable SPI on Raspberry Pi**>
+
+:warning:**Enable TPM support on Raspberry Pi**
+
 **Download / clone the repository to your computer:**
 ```
 $ git clone https://github.com/StMaHa/tpm2-software.git
@@ -29,10 +33,6 @@ $ cd tpm2-software
 $ git fetch
 $ git rebase
 ```
-
-**Enable SPI on Raspberry Pi**
-
-**Enable TPM support on Raspberry Pi**
 
 ## Setup
 ```
