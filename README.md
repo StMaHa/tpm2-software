@@ -13,7 +13,9 @@ Linux TPM2 &amp; TSS2 Software
 > - LetsTrust TPM SLB9670 (purchasable at buyzero.de)  
 
 ## Prepare for setup
-**Update your system:**
+**Plug in a TPM add-on board**
+
+**Update your system**
 ```
 $ sudo apt update
 $ sudo apt -y full-upgrade
