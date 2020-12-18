@@ -18,9 +18,9 @@ $ sudo apt update
 $ sudo apt -y full-upgrade
 ```
 
-:warning:**Enable SPI on Raspberry Pi**>
+:fire: **Enable SPI on Raspberry Pi**
 
-:warning:**Enable TPM support on Raspberry Pi**
+:fire: **Enable TPM support on Raspberry Pi**
 
 **Download / clone the repository to your computer:**
 ```
