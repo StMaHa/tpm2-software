@@ -39,3 +39,6 @@ $ git rebase
 $ cd tpm2-software
 $ ./setup.sh
 ```
+
+# LICENSE
+See the [LICENSE](LICENSE.md) file for license rights and limitations.
