@@ -3,7 +3,7 @@ Linux TPM2 &amp; TSS2 Software
 
 > Scripts and examples from this repository...  
 > ...related to repository https://github.com/tpm2-software  
-> ...show how to install and use TPM (e.g. on Raspberry Pi) with TPM2 Software Stack  
+> ...show how to install and use TPM with TPM2 Software Stack  
 > ...intended to be used on **Raspberry Pi**.  
 > ...tested on Raspberry Pi 4B with Raspberry Pi OS based on Buster.  
 >
