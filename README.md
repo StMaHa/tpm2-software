@@ -19,7 +19,7 @@ $ sudo apt update
 $ sudo apt -y full-upgrade
 ```
 
-:fire: **Enable SPI interface on Raspberry Pi**  
+**Enable SPI interface on Raspberry Pi**  
 add 'dtparam=spi=on' to '/boot/config.txt'  
   
 or
@@ -27,7 +27,7 @@ or
 $ sudo raspi-config
 ```
 
-:fire: **Enable TPM support on Raspberry Pi**  
+**Enable TPM support on Raspberry Pi**  
 Add 'dtoverlay=tpm-slb9670' to '/boot/config.txt'
 
 :fire: **After the above preparation steps reboot your Raspberry Pi and check**
