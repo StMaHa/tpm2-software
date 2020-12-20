@@ -1,3 +1,4 @@
+**:construction: Under Construction :construction: Under Construction :construction: Under Construction :construction: Under Construction :construction:**
 # tpm2-software
 Linux TPM2 &amp; TSS2 Software
 
@@ -22,7 +23,10 @@ $ sudo apt -y full-upgrade
 ```
 
 **Enable SPI interface on Raspberry Pi**  
-add 'dtparam=spi=on' to '/boot/config.txt'  
+```
+$ sudo nano /boot/config.txt
+```
+and add 'dtparam=spi=on' to '/boot/config.txt'  
   
 or
 ```
@@ -35,6 +39,7 @@ Add 'dtoverlay=tpm-slb9670' to '/boot/config.txt'
 :fire: **After the above preparation steps reboot your Raspberry Pi and check**
 ```
 $ ls /dev/tpm*
+/dev/tpm0  /dev/tpmrm0
 ```
 
 **Download / clone the repository to your computer:**
@@ -57,3 +62,6 @@ $ ./setup.sh
 
 # LICENSE
 See the [LICENSE](LICENSE.md) file for license rights and limitations.
+
+---
+<sup>(c) Raspberry Pi is a trademark of the Raspberry Pi Foundation.</sup>
