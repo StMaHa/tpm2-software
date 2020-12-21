@@ -17,48 +17,40 @@ Linux TPM2 &amp; TSS2 Software
 **Plug in a TPM add-on board**
 
 **Update your system**
-```
-$ sudo apt update
-$ sudo apt -y full-upgrade
-```
+
+    $ sudo apt update  
+    $ sudo apt -y full-upgrade  
+
 
 **Enable SPI interface on Raspberry Pi**  
-```
-$ sudo nano /boot/config.txt
-```
+``` $ sudo nano /boot/config.txt  ```
+
 and add 'dtparam=spi=on' to '/boot/config.txt'  
   
-or
-```
-$ sudo raspi-config
-```
+or  
+``` $ sudo raspi-config  ```
 
 **Enable TPM support on Raspberry Pi**  
 Add 'dtoverlay=tpm-slb9670' to '/boot/config.txt'
 
 :fire: **After the above preparation steps reboot your Raspberry Pi and check**
-```
-$ ls /dev/tpm*
-/dev/tpm0  /dev/tpmrm0
-```
-
-**Download / clone the repository to your computer:**
-```
-$ git clone https://github.com/StMaHa/tpm2-software.git
+``` $ ls /dev/tpm*  
+    /dev/tpm0  /dev/tpmrm0
 ```
 
-**To update already cloned repository, do the following steps:**
-```
-$ cd tpm2-software
-$ git fetch
-$ git rebase
-```
+**Download / clone the repository to your computer:**  
+``` $ git clone https://github.com/StMaHa/tpm2-software.git```  
+
+**To update already cloned repository, do the following steps:**  
+
+    $ cd tpm2-software  
+    $ git fetch  
+    $ git rebase  
 
 ## Setup
-```
-$ cd tpm2-software
-$ ./setup.sh
-```
+
+    $ cd tpm2-software    
+    $ ./setup.sh
 
 # LICENSE
 See the [LICENSE](LICENSE.md) file for license rights and limitations.
