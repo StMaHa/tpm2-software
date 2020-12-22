@@ -13,6 +13,11 @@ Linux TPM2 &amp; TSS2 Software
 > - IRIDIUM SLM9670 TPM2.0 (purchasable at mouser.com)  
 > - LetsTrust TPM SLB9670 (purchasable at buyzero.de)  
 
+Further details can be found:
+* Infineon [TPM 2.0 Application Note](https://www.infineon.com/dgdl/Infineon-App-Note-SLx9670-TPM2.0_Embedded_RPi_DI_SLx-AN-v01_20-EN.pdf?fileId=5546d46267c74c9a01684b96e69f5d7b)
+* [AWS IoT Greengrass Hardware Security Integration Readme](https://github.com/StMaHa/amazon-greengrass-hsi-optiga-tpm/blob/master/README.md)
+* All readme's related to the repositories used here
+
 ## Prepare for setup
 **Plug in a TPM add-on board**
 
