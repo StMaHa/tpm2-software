@@ -5,5 +5,5 @@ cd /home/pi/tssSetup
 echo "Setup everything..."
 ./setup-tss.sh
 ./setup-abrmd.sh
-./setup-tools.sh
+./setup-tpm2-tools.sh
 ./setup-engine.sh
