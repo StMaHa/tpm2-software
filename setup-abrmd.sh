@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "*** Setup TPM2 Access Broker and Resource Manager ***"
 echo "Installation of packages required to build the TABRMD"
 sudo apt -y install \

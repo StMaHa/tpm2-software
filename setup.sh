@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Create working directory"
 mkdir /home/pi/tssSetup
 cd /home/pi/tssSetup

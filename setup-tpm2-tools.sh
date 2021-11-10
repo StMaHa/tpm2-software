@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "*** Setup TPM2 Tools ***"
 if [ ! -d "/home/pi/tssSetup" ]; then
   mkdir /home/pi/tssSetup

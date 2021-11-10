@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "*** Setup TPM2 TSS ***"
 echo "*** Pre-Installation ***"
 if [ ! -d "/home/pi/tssSetup" ]; then
