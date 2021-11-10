@@ -61,7 +61,6 @@ echo "*** FAPI Configuration ***"
 echo "Creation of the user keystore"
 mkdir -p ~/.local/share/tpm2-tss/user/keystore
 sudo adduser pi tss
-logout
 
 echo "Command to check if current user was correctly added to the group tss"
 groups | grep tss
