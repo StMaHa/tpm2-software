@@ -58,11 +58,34 @@ $ git fetch
 $ git rebase
 ```
 
-## Setup
+## Minimum setup
+```
+$ cd tpm2-software    
+$ ./setup-tss.sh
+$ ./setup-tpm2-tools.sh
+```
+
+## Setup all
+(not tested yet)
 ```
 $ cd tpm2-software    
 $ ./setup.sh
 ```
+
+## Testing
+FAPI:
+```
+$ cd tpm2-software    
+$ tss2_provision
+$ tss2_getrandom --numBytes=20 -data=- | hexdump -C
+```
+
+ESAPI:
+```
+$ cd tpm2-software    
+$ tpm2_getrandom 20 | hexdump -C
+```
+
 
 # LICENSE
 See the [LICENSE](LICENSE) file for license rights and limitations.
