@@ -16,6 +16,7 @@ sudo apt -y install \
     libcurl4-gnutls-dev \
     pandoc \
     python-yaml \
+    uuid-dev \
     expect
 
 echo "Change to the installation directory and download the TPM2 Tools source code"
