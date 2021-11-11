@@ -14,7 +14,9 @@ Linux TPM2 &amp; TSS2 Software
 > - LetsTrust TPM SLB9670 (purchasable at buyzero.de)  
 
 Further details can be found:
-* Infineon [TPM 2.0 Application Note](https://www.infineon.com/dgdl/Infineon-App-Note-SLx9670-TPM2.0_Embedded_RPi_DI_SLx-AN-v01_20-EN.pdf?fileId=5546d46267c74c9a01684b96e69f5d7b)
+* Infineon OPTIGA™ TPM Application Notes: 
+  * [Integration of an OPTIGA™ TPM SLx 9670 TPM2.0 with SPI Interface in a Raspberry Pi® 4 Linux environment](https://www.infineon.com/dgdl/Infineon-OPTIGA_SLx_9670_TPM_2.0_Pi_4-ApplicationNotes-v07_19-EN.pdf?fileId=5546d4626c1f3dc3016c3d19f43972eb)
+  * [Integration of the Open Source TPM Software Stack 2.0 on a Raspberry Pi® 3 Linux environment with OPTIGA™ TPM SLx 9670 TPM 2.0](https://www.infineon.com/dgdl/Infineon-TPM20_Embedded_RPi_TSS_SLx_9670-ApplicationNotes-v02_00-EN.zip?fileId=5546d4626eab8fbf016f13f1c3ff4c50)
 * [AWS IoT Greengrass Hardware Security Integration Readme](https://github.com/StMaHa/amazon-greengrass-hsi-optiga-tpm/blob/master/README.md)
 * All readme's related to the repositories used here
 
